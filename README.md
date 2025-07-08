@@ -5,7 +5,7 @@
 > S. Park, J. Lee, and D. J. Lee, "Shape Abstraction via Marching Differentiable Support Functions," CVPR 2025
 
 ## DSF Fitting
-Implementation for DSF Fitting for a mesh.
+Implementation of DSF Fitting for a 3D mesh.
 1. Input obj file
 ```
 obj/fitting/*.obj
@@ -17,6 +17,6 @@ res/*.obj
 ```
 
 ## MDSF
-Implementation for DSF Abstraction from SDF data.
+Implementation of DSF Abstraction from SDF data.
 
 The code is currently not publicly available.
