@@ -17,5 +17,6 @@ res/*.obj
 ```
 
 ## MDSF
+Implementation for DSF Abstraction from SDF data.
 
 The code is currently not publicly available.
