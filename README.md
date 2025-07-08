@@ -7,10 +7,14 @@
 ## DSF Fitting
 Implementation for DSF Fitting for a mesh.
 1. Input obj file
-'''obj/fitting/*.obj'''
+'''
+obj/fitting/*.obj
+'''
 2. Run 'main_fitting.m'
 3. Output obj file
-'''res/*.obj'''
+'''
+res/*.obj
+'''
 
 ## MDSF
 
