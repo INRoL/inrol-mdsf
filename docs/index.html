@@ -17,6 +17,7 @@
     h1 {
       font-size: 28px;
       margin-bottom: 5px;
+      margin-top: 0;
     }
     h2 {
       font-size: 18px;
@@ -45,13 +46,32 @@
     .links a {
       margin: 0 10px;
     }
-    iframe {
+    .section {
+      text-align: left;
+      margin-top: 40px;
+    }
+    .section h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .section p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .image-title {
+      font-size: 20px;
+      color: #444;
+      font-weight: bold;
+      margin-top: 40px;
+      margin-bottom: 10px;
+    }
+    img.large-image {
+      max-width: 840px;
       width: 100%;
-      max-width: 720px;
-      height: 405px;
-      border: none;
-      margin-top: 30px;
+      height: auto;
+      margin: 0 auto;
       box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+      display: block;
     }
   </style>
 </head>
@@ -62,7 +82,7 @@
 
   <div class="authors">
     <div>Sunkyung Park &nbsp;&nbsp; Jeongmin Lee &nbsp;&nbsp; Dongjun Lee</div>
-    <div>Seoul National University</a></div>
+    <div>Seoul National University</div>
   </div>
 
   <div class="links">
@@ -70,10 +90,25 @@
     [<a href="https://github.com/INRoL/inrol-mdsf">Code</a>]
   </div>
 
+  <div class="section">
+    <h3 style="text-align: center;">Abstraction</h3>
+    <p>
+      Shape abstraction, simplifying shape representation into a set of primitives, is a fundamental topic in computer vision. The choice of primitives shapes the structure of world understanding, yet achieving both high abstraction accuracy and versatility remains challenging. In this paper, we introduce a novel framework for shape abstraction utilizing a differentiable support function (DSF), which offers unique advantages in representing a wide range of convex shapes with fewer parameters, providing smooth surface approximation and enabling differentiable contact features (gap, point, normal) essential for downstream applications involving contact-related problems. To tackle the associated optimization and combinatorial challenges, we introduce two techniques: differentiable shape parameterization and hyperplane-based marching to enhance accuracy and reduce DSF requirements. We validate our method through experiments demonstrating superior accuracy and efficiency, and showcase its applicability in tasks requiring differentiable contact information.
+    </p>
+  </div>
+
+  <div class="image-title">Results</div>
   <img
     class="large-image"
     src="project.png"
     alt="Project visual"
+  />
+
+  <div class="image-title">Applications</div>
+  <img
+    class="large-image"
+    src="applications.png"
+    alt="Application visual"
   />
 
 </body>
