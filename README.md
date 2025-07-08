@@ -1,4 +1,4 @@
-# Differentiable Support Functions
+# Marching Differentiable Support Functions
 
 ## Reference
 
@@ -16,7 +16,7 @@ obj/fitting/*.obj
 res/*.obj
 ```
 
-## MDSF
+## DSF Abstraction
 Implementation of DSF Abstraction from SDF data.
 
 The code is currently not publicly available.
