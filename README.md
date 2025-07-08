@@ -10,7 +10,7 @@ Implementation of DSF Fitting for a 3D mesh.
 ```
 obj/fitting/*.obj
 ```
-2. Run 'main_fitting.m'
+2. Run `main_fitting.m`
 3. Output obj file
 ```
 res/*.obj
